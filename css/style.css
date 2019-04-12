@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*2 ta font-family kivabe add kirbo,*/
+body {
+    font-family: 'Abril Fatface', cursive;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-7,
+.col-8 {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-5 {
+    width: 41.47%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.67%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+/*header section start*/
+header {
+    overflow: hidden;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 20%;
+    float: left;
+    padding: 15px 0;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: #DB9423;
+}
+
+.logo h2 {
+    margin-left: 10px;
+    font-size: 35px;
+    line-height: 8px;
+
+}
+
+.logo h5 {
+    line-height: 13px;
+    margin-left: 82px;
+    font-weight: 900;
+}
+
+.menu {
+    width: 80%;
+    text-align: right;
+    float: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 27px 5px;
+
+}
+
+/*problem ase */
+.menu ul li a {
+    text-decoration: none;
+    padding: 15px 8px;
+    text-transform: capitalize;
+    color: #1D1D23;
+}
+
+/*problem ase */
+.menu ul li a:hover {
+    color: #DB9423;
+}
+
+.menu-btn a {
+    background: #DB9423;
+    color: #fff !important;
+    padding: 12px 25px !important;
+    border-radius: 50px;
+    -moz-transition: 2s;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    -ms-transition: 2s;
+    transition: 2s;
+}
+
+.menu-btn a:hover {
+    background: #fff;
+    color: #DB9423 !important;
+}
+
+/*header section end*/
+
+/*banner-section start*/
+.banner-section {
+    background: url('../images/bg-welcome.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(33, 29, 29, 0.67);
+}
+
+.banner-content {
+    padding: 165px 0;
+}
+
+.banner-content h3 {
+    font-size: 25px;
+    color: #DB9423;
+    padding: 8px 0 0 0;
+}
+
+.banner-content h2 {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.banner-content p {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px 0;
+    color: #FAF9FA;
+
+}
+
+.banner-btn {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.banner-btn a {
+    text-decoration: none;
+    color: #FAF9FA;
+    background: transparent;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border: 5px double #fff;
+
+    -moz-transition: 2s;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    -ms-transition: 2s;
+    transition: 2s;
+}
+
+.banner-btn a:hover {
+    color: #1D1D23;
+    background: #FAF9FA;
+}
+
+/*banner-section end*/
+
+/*bbq-place-section start*/
+.bbq-place-section {
+    overflow: hidden;
+    padding: 50px 0 0;
+}
+
+.bbq-place-content {
+    text-align: center;
+    padding: 35px 0;
+}
+
+.bbq-place-content i {
+    font-size: 43px;
+    color: #4e4b4b9e;
+}
+
+.bbq-place-content h2 {
+    font-size: 35px;
+    padding: 10px 0;
+    color: #DB9423;
+}
+
+.bbq-place-content h4 {
+    letter-spacing: 3px;
+    color: #DCDCDD;
+    padding: 12px 0;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.bbq-place-content h5 {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 12px 0;
+    font-weight: 100;
+    color: #000000c2;
+    font-size: 14px;
+}
+
+.bbq-place-content p {
+    max-width: 300px;
+    margin: 0 auto;
+    color: #88888B;
+    line-height: 25px;
+    padding: 12px 0;
+}
+
+.bbq-place-btn {
+    padding: 25px 0;
+}
+
+.bbq-place img {
+    box-shadow: 0px 40px 35px -30px #0003;
+}
+
+.bbq-place-btn a {
+    color: #DB9423;
+    padding: 8px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px solid #DB9423;
+
+    -moz-transition: 2s;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    -ms-transition: 2s;
+    transition: 2s;
+}
+
+.bbq-place-btn a:hover {
+    color: #fff;
+    background: #DB9423;
+}
+
+/*bbq-place-section end*/
+
+/*bbq-category-section start*/
+.bbq-category-section {}
+
+.bbq-category {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.bbq-category ul {}
+
+.bbq-category ul li {
+    display: inline-block;
+    padding: 20px 60px;
+
+}
+
+.bbq-category ul li a {
+    text-decoration: none;
+    color: #828282;
+    font-size: 22px;
+}
+
+.bbq-category-bg {
+    background: url("../images/bbq-category.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.bbq-category-bg-content {
+    padding: 80px 0;
+}
+
+.bbq-category-bg-content h2 {
+    padding: 10px 0;
+    text-transform: capitalize;
+    color: #DB9423;
+    font-size: 32px;
+    font-family: sans-serif !important;
+    font-weight: 700;
+}
+
+.bbq-category-bg-content p {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.bbq-category-bg-content img {
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.bbq-category-bg-content i {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+}
+
+/*bbq-category-section end*/
+
+/*bbq-price-section start*/
+.bbq-price-section {
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.bbq-price-section .container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.bbq-price-content {
+    box-sizing: border-box;
+    padding: 40px 60px;
+}
+
+.bbq-price-info {
+    float: left;
+}
+
+.bbq-price-info h2 {
+    max-width: 215px;
+    color: #1d1d23;
+}
+
+.bbq-price-info h3 {
+    color: #db9423;
+    padding: 15px 0;
+}
+
+.bbq-price-info p {
+    max-width: 200px;
+}
+
+.bbq-price-picture img {
+    border-radius: 50%;
+}
+
+/*bbq-price-section end*/
+
+/*happy-hours-section start*/
+.happy-hours-section {
+    background: url("../images/drinks.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.happy-hours-content {
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.happy-hours-icon {
+    padding: 25px 0;
+    max-width: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.happy-hours-icon .border-left {
+    position: absolute;
+    border: 1px solid #FFF;
+    width: 160px;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+.happy-hours-icon .border-right {
+    position: absolute;
+    border: 1px solid #FFF;
+    width: 160px;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.happy-hours-content i {
+    font-size: 50px;
+}
+
+.happy-hours-content h4 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.happy-hours-content h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #db9423;
+    padding: 15px 0;
+}
+
+.happy-hours-content p {
+    text-transform: capitalize;
+}
+
+.happy-hours-btn {
+    padding: 30px 0;
+}
+
+.happy-hours-btn a {
+    color: #fff;
+    padding: 5px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 4px double #fff;
+}
+
+.happy-hours-btn a:hover {
+    color: #db9423;
+    border: 4px double #db9423;
+}
+
+/*happy-hours-section end*/
+/*our-food-section start*/
+.our-food-section {
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.our-food-about h2 {
+    padding: 15px 0;
+}
+
+.our-food-about span i {
+    color: red;
+}
+
+.our-food-about p {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 25px 0;
+    font-family: sans-serif !important;
+    font-size: 15px;
+    color: #000000a8;
+}
+
+.our-food-content {
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.our-food-content img {
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.our-food-content h4 {
+    max-width: 175px;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-weight: 200 !important;
+}
+
+/*lats-eat-section*/
+.lats-eat-section {
+    overflow: hidden;
+    background-image: url('../images/our_gallery_img_5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.lats-eat {
+    padding: 35px 0;
+}
+
+.lats-eat-content {
+    padding: 40px 0;
+}
+
+.lats-eat-content h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.lats-eat-content img {
+    padding: 20px 0;
+}
+
+.lats-eat-content p {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-family: sans-serif !important;
+    font-size: 15px;
+    color: #ffffffc7;
+}
+
+.lats-eat-btn {
+    padding: 50px 0;
+}
+
+.lats-eat-btn a {
+    color: #db9423;
+    padding: 5px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 4px double #db9423;
+    text-transform: uppercase;
+}
+
+.lats-eat-btn a:hover {
+    color: #fff;
+    border: 4px double #fff;
+}
+
+.lats-eat-content span {
+    font-size: 30px;
+}
+
+.lats-eat-social-icon {
+    padding: 20px 0 70px;
+}
+
+.lats-eat-social-icon ul li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.lats-eat-social-icon ul li a {
+    color: #fff;
+    border: 3px dotted #fff;
+    border-radius: 50%;
+    transition: all .5s ease;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.lats-eat-social-icon ul li a:hover {
+    color: #db9423;
+    border: 3px dotted #db9423;
+}
+
+/*our-food-section end*/
+footer {
+    color: #a79d9d9e;
+    overflow: hidden;
+}
+
+.footer p {
+    float: left;
+}
+
+.footer span {
+    float: right;
+    text-align: right;
+}
